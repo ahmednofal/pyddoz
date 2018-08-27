@@ -6,15 +6,15 @@ with open("README.md", "r") as fh:
 
 tool_name="pyddoz"
 version_num = "0.0.1"
-author_name = "Ahmed Nofal"
-email = "ahmednofal@aucegypt.edu"
+author_name = "benorcunozdemir"
+email = "benorcunozdemir@gmail.com"
 setuptools.setup(name=tool_name,
         version=version_num,
         author=author_name,
         author_email=email,
         description=long_description,
         long_description_content_type="text/markdown",
-        url="https://github.com/ahmednofal/pyddoz",
+        url="https://github.com/n1rv4n4",
         packages=setuptools.find_packages(),
         classifiers=[
         "Programming Language :: Python :: 3",
