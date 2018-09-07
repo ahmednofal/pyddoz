@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import setuptools
-
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+import io
+fh = io.open("README.md", mode="r", encoding="utf-8")
+long_description = fh.read()
 
 tool_name="pyddoz"
 version_num = "0.0.1"
